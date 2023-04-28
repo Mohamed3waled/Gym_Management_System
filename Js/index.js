@@ -170,7 +170,8 @@ Close.addEventListener('click', () => {
     Close.parentElement.style.display = 'none'
     document.body.style.overflow = 'auto'
     document.querySelector('.Inputs_Search input').value = ''
-    Add_Memper()
+    window.location.reload()
+
 })
 
 
